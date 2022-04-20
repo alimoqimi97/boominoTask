@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93.791" height="93.305" viewBox="0 0 93.791 93.305">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f68a8b"/>
+            <stop offset="1" stop-color="#ca3132"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#353157}
+        </style>
+    </defs>
+    <g id="Sad_-_Active" data-name="Sad - Active" transform="translate(-598.364 -296.593)">
+        <path id="Path_50" data-name="Path 50" d="M49.4 2.593c30.831 0 45.88 16.523 45.88 46.631S80.7 95.9 49.4 95.9 1.483 79.333 1.483 49.224 18.564 2.593 49.4 2.593z" transform="translate(596.881 294)" style="fill:url(#linear-gradient)"/>
+        <g id="Group_47" data-name="Group 47" transform="translate(625.802 337.604)">
+            <g id="Group_45" data-name="Group 45">
+                <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="4.169" cy="4.169" r="4.169" transform="translate(30.576)"/>
+                <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-2" cx="4.169" cy="4.169" r="4.169"/>
+                <path id="Path_11" data-name="Path 11" d="M0 .09a10.133 10.133 0 0 1 10.222 4.8 9.525 9.525 0 0 1 1.1 2.286" transform="rotate(-32 27.454 -15.9)" style="fill:none;stroke:#353157;stroke-linecap:round"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,91 @@
+.Modal {
+    width: 50%;
+    background-color: #26244B;
+    margin: auto;
+    height: 68%;
+    top: 11%;
+    position: relative;
+    z-index: 6;
+    border-radius: 1.5rem;
+    padding: 3%;
+}
+
+img.modal-image {
+    width: 30%;
+    height: 36%;
+    border-radius: 1rem;
+}
+
+.without-style-button {
+    float: right;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.modal-header {
+    text-align: center;
+}
+.modal-header img {
+    top: -15%;
+    position: absolute;
+    left: 23%;
+    width: 49%;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.accept-button {
+    cursor: pointer;
+    background-color: #5A4DFF;
+    box-shadow: 0 5px #7C70FF;
+    border-color: #5A4DFF;
+    width: 5rem;
+    height: 3rem;
+    padding: 2%;
+    font-size: 1.4rem;
+    font-family: Vazir;
+}
+
+.accept-button:disabled {
+    background: #352e89;
+    box-shadow: 0 5px #484289;
+    color: #555;
+    cursor: not-allowed;
+}
+
+
+.accept-button-border {
+    border-style: solid;
+    border-radius: 1.4rem;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+.Modal {
+    width: 80%;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+.Modal {
+    width: 90%;
+}
+}

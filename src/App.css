@@ -1,0 +1,21 @@
+.App {
+  background: radial-gradient(#26244B, #0A0A3E);
+  padding: 2%;
+  height: 657px;
+}
+
+* {
+  box-sizing: border-box;
+  color: #FFFFFF;
+  direction: rtl;
+}
+
+.modal-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  z-index: 5;
+}

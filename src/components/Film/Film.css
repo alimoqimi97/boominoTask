@@ -1,0 +1,32 @@
+.Film {}
+
+
+.video {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.video-container {
+    height: 9rem;
+    width: 17rem;
+    position: relative;
+    z-index: 1;
+}
+.video-container:hover {
+    cursor: pointer;
+}
+
+.caption {
+    color: white;
+    position: absolute;
+    bottom: 6%;
+    right: 3%;
+    font-size: 2rem;
+    z-index: 5;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Vazir;
+}

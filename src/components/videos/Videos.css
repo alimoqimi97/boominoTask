@@ -1,0 +1,7 @@
+.videos {
+    display: flex;
+    list-style-type: none;
+    overflow-x: scroll;
+    height: 56%;
+    column-gap: 3rem;
+}
